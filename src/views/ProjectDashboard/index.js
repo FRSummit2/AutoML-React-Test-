@@ -1,15 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState, useRef } from "react";
 import { connect } from "react-redux";
-import { NavLink } from "react-router-dom";
 
-import Header from "../../components/header";
-
-const Login = (props) => {
+const ProjectDashboard = (props) => {
   return (
     <div>
-      <Header />
-      This is Login
+      ProjectDashboard
     </div>
   );
 };
@@ -17,4 +13,4 @@ const mapStateToProps = (state) => {
   return {};
 };
 
-export default connect(mapStateToProps, {})(Login);
+export default connect(mapStateToProps, {})(ProjectDashboard);

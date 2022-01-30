@@ -1,0 +1,12 @@
+npm install --save react-drag-resize
+npm install --save re-resizable
+npm i --save ag-grid-community ag-grid-react react-dom-factories
+
+
+# WWorking - A draggable and resizable grid layout with responsive breakpoints, for React. {
+    npm install react-grid-layout
+    https://bestofreactjs.com/repo/STRML-react-grid-layout-react-ui-layout
+}
+
+
+

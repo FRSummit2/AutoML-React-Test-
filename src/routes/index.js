@@ -3,9 +3,9 @@ import { connect } from "react-redux";
 import { Redirect, Route, Switch } from "react-router-dom";
 
 //Pages
-
 import Login from "../views/login";
 import Home from "../views/home";
+import ProjectDashboard from '../views/ProjectDashboard'
 
 const Routes = ({ user }) => {
   return (
@@ -14,6 +14,7 @@ const Routes = ({ user }) => {
       <Switch>
           <Route exact path="/" component={Login} />
           <Route exact path="/home" component={Home} />
+          <Route exact path="/project-dashboard" component={ProjectDashboard} />
           <Redirect to={`/`} />
         </Switch>
 

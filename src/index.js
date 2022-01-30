@@ -4,8 +4,8 @@ import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import store from './reducer';
 import Routes from './routes'
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/style.css'
 
 // if (process.env.NODE_ENV !== "development") {
 //   Sentry.init({
